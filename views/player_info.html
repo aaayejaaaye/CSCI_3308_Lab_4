@@ -36,63 +36,80 @@
 		</div>
 	  </div>
 	</nav>
-  <div class="container">
-  <div class="row">
-    <div class="col"><div class="container">
-  <div class="row">
-    <div class="col">Column</div>
-    <div class="col">Column</div>
-    <div class="w-100"></div>
-    <div class="col">Column</div>
-    <div class="col">Column</div>
-  </div>
-</div></div>
-    <div class="col">Column</div>
-    <div class="w-100"></div>
-    <div class="col">Column</div>
-    <div class="col">Column</div>
-  </div>
+
+  <div class="row justify-content-start">
+    <div class="col">  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="/home/aj/Downloads/Lab_Website/resources/img/temp_image.svg" alt="Card image cap">
+    <div class="card-body">
+      <div class="dropdown">
+<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  Select a Player
+</button>
+<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+  <a class="dropdown-item" href="#">Player 1</a>
+  <a class="dropdown-item" href="#">Player 2</a>
+  <a class="dropdown-item" href="#">Player 3</a>
 </div>
-<div class="container">
-  <div class="row">
-    <div class="col">Column</div>
-    <div class="col">Column</div>
-    <div class="w-100"></div>
-    <div class="col">Column</div>
-    <div class="col">Column</div>
-  </div>
 </div>
-        </div>
+  </div>
+  </div></div>
+  </div>
+  <div class="row">
+    <!--<div class="col-8"></div>-->
+    <div class="row justify-content-around"><div class="container">
+      <table class="table">
+        <tbody>
+          <tr>
+
+            <th scope="col">Year</th>
+            <td scope="col">Junior</td>
+
+          </tr>
+
+
+          <tr>
+
+            <th>Major</th>
+            <td>History</td>
+
+          </tr>
+          <tr>
+
+            <th>Games Played</th>
+            <td>32</td>
+
+          </tr>
+          <tr>
+
+            <td>Passing Yards: 855</td>
+            <td>Average Passing Yards: 26</td>
+
+          </tr>
+          <tr>
+
+            <td>Rushing Yards: 378</td>
+            <td>Average Rushing Yards: 12</td>
+
+          </tr>
+          <tr>
+
+            <td>Receiveing Yards: 57</td>
+            <td>Average Receiveing Yards: 2</td>
+
+          </tr>
+        </tbody>
+      </table>
+
+    </div>
+</div>
+  </div>
         <!--
 					Todo: This section will hold a Bootstrap Card containing
 						   a demo image (temp_image.svg) and a Bootstrap Dropdown menu
 						   to allow the user to select between 3 temp players (switching between
 						   the players will be implemented in a future lab).
 				-->
-    <div class="card">
-      <img src="/home/aj/Downloads/Lab_Website/resources/img/photo-1518791841217-8f162f1e1131.webp" width ="150" height="200">
-    <p class="card-title">Card title</p>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
-    <table rowspan ="2" columnspan="2">
-      <tr >
-        <th>Year</th><th>Major</th><th>Games Played</th>
-      </tr>
-      <tr>
-        <td>Passing Yards</td><td>xxx</td>
-      </tr>
-      <tr>
-        <td>Rushing Yards </td><td>xxx</td>
-      </tr>
-      <tr>
-        <!-- Edit the column span here -->
-        <td>Receiving Yards</td><td>xxx</td>
-      </tr>
-    </table>
-  </div>
-  </div>
-			</div>
-			<div class="col-8">
 
 				<!--
 					Todo: This section will hold a table with a temp player's information
@@ -104,10 +121,8 @@
 					|  Rushing Yards: 378  |  Avg. Rushing Yards: 12  |
 					|  Receiving Yards: 57 |  Avg. Receiving Yards: 2 |
 				-->
-			</div>
-		  </div>
 
-	</div>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
